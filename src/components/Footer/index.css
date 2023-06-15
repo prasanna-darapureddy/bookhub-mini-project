@@ -1,0 +1,41 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 166px;
+}
+.social-media-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.social-icon-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+}
+.social-icon {
+  font-size: 18px;
+  color: #3d3c3c;
+}
+.contact-us-text {
+  margin-top: 16px;
+  margin-bottom: 64px;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3d3c3c;
+}
+@media screen and (max-width: 768px) {
+  .contact-us-text {
+    font-size: 12px;
+  }
+  .social-icon {
+    font-size: 13.7px;
+  }
+}

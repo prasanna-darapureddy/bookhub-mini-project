@@ -1,0 +1,140 @@
+.home-bg-container {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  width: 100vw;
+  margin-top: 0px;
+}
+.home-content-container {
+  padding: 48px 100px;
+  display: flex;
+  flex-direction: column;
+}
+.home-heading {
+  color: #1e293b;
+  margin-bottom: 12px;
+}
+.home-description {
+  color: #475569;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 32px;
+  width: 998px;
+  height: 64px;
+}
+.book-carousel-container {
+  background: #ffffff;
+  box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.08);
+  border-radius: 16px;
+  padding: 36px 28px;
+}
+.carousel-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carousel-heading {
+  color: #1e293b;
+}
+.find-books-button {
+  padding: 10px 20px;
+  color: #fff;
+  width: 104px;
+  height: 36px;
+  background: #0284c7;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+.carousel-container {
+  list-style-type: none;
+  margin-top: 30px;
+  padding-inline-start: 0px;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+.home-failure-img {
+  width: 347px;
+  height: 170px;
+  margin-bottom: 24px;
+}
+.home-failure-text {
+  color: #475569;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.failure-retry-button {
+  padding: 10px 20px;
+  color: #fff;
+  width: 90px;
+  height: 36px;
+  background: #0284c7;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+}
+.mobile-find-books-button {
+  display: none;
+}
+
+/* Mobile View */
+
+@media screen and (max-width: 768px) {
+  .home-content-container {
+    padding: 24px;
+  }
+  .home-heading {
+    font-size: 20px;
+    width: 100%;
+  }
+  .home-description {
+    width: 100%;
+    font-size: 14px;
+  }
+  .find-books-button {
+    display: none;
+  }
+  .mobile-find-books-button {
+    padding: 10px 20px;
+    color: #fff;
+    width: 104px;
+    height: 36px;
+    background: #0284c7;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 24px;
+  }
+  .carousel-heading {
+    font-size: 16px;
+  }
+  .book-carousel-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+}

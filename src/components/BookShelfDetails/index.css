@@ -1,0 +1,90 @@
+.bookshelf-detailed-bg-container {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #e5e5e5;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bookshelf-detailed-content-container {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 48px;
+  height: 100vh;
+  width: 100%;
+}
+.failure-img {
+  width: 347px;
+  height: 170px;
+  margin-bottom: 24px;
+}
+.failure-text {
+  color: #475569;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.failure-retry-button {
+  padding: 10px 20px;
+  color: #fff;
+  width: 90px;
+  height: 36px;
+  background: #0284c7;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .bookshelf-detailed-bg-container {
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  .loader-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .failure-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

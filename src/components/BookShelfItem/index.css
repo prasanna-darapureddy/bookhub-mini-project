@@ -1,0 +1,89 @@
+.linked-shelf-item {
+  text-decoration: none;
+  width: 400px;
+}
+
+.book-shelf-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.cover-img {
+  width: 133px;
+  height: 155px;
+}
+.item-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 200px;
+  height: 120px;
+}
+
+.title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  width: 146px;
+  height: 48px;
+  color: #334155;
+  margin-bottom: 2px;
+  text-align: left;
+  line-height: 20px;
+}
+.author {
+  width: 114px;
+  height: 16px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #475569;
+  margin-bottom: 2px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.rating-line {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #475569;
+}
+.star-icon {
+  color: #fbbf24;
+  border-radius: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.rating {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #334155;
+}
+.status-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.status {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #0284c7;
+}

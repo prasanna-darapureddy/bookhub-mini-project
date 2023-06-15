@@ -1,0 +1,55 @@
+.menu {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  text-align: left;
+  margin-right: 0px;
+}
+.shelf-menu-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0px;
+  cursor: pointer;
+  text-align: left;
+  margin-right: 0px;
+}
+.active-menu {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0284c7;
+  max-width: 160px;
+  margin-right: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    margin-right: 24px;
+    margin-bottom: 20px;
+  }
+  .shelf-menu-btn {
+    border: 1px solid #0284c7;
+    background-color: transparent;
+    border-radius: 25px;
+    color: #0284c7;
+    padding: 6px 10px;
+    min-width: 57px;
+    min-height: 24px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  .active-menu {
+    background-color: #0284c7;
+    color: #fff;
+    border: none;
+    min-width: 57px;
+    min-height: 24px;
+  }
+}

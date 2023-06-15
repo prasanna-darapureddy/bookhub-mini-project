@@ -1,0 +1,247 @@
+.bookshelves-bg-container {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  width: 100vw;
+}
+.bookshelves-content-container {
+  padding-top: 48px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  width: 100%;
+}
+.bookshelves-menus-container {
+  background-color: #fff;
+  padding: 32px;
+  min-height: 100vh;
+  min-width: 20%;
+}
+.bookshelves-menus-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #334155;
+  margin-bottom: 16px;
+}
+.bookshelves-menus {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  margin-right: 0px;
+}
+
+.menus-footer-content-container {
+  margin-left: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 80%;
+}
+
+.menus-content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-content-headers-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 31px;
+  align-items: center;
+  width: 100%;
+}
+.menu-books-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #334155;
+}
+.search-container {
+  padding: 6px 16px;
+  padding-right: 0px;
+  width: 264px;
+  height: 36px;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-input {
+  outline: none;
+  border: none;
+}
+.search-button {
+  background: #edeff1;
+  border: none;
+  border-right: none;
+  cursor: pointer;
+  width: 52px;
+  height: 34px;
+  text-align: center;
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+  color: #94a3b8;
+}
+
+.books-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  width: 100%;
+}
+.no-results-match {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.no-result-img {
+  width: 476px;
+  height: 327px;
+}
+.no-result-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #334155;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 48px;
+  height: 100vh;
+  width: 100%;
+}
+.failure-img {
+  width: 347px;
+  height: 170px;
+  margin-bottom: 24px;
+}
+.failure-text {
+  color: #475569;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.failure-retry-button {
+  padding: 10px 20px;
+  color: #fff;
+  width: 90px;
+  height: 36px;
+  background: #0284c7;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.mobile-search-container {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .bookshelves-bg-container {
+    width: 100%;
+  }
+  .menu-content-headers-container {
+    display: none;
+  }
+
+  .mobile-search-container {
+    padding: 6px 16px;
+    padding-right: 0px;
+    width: 264px;
+    height: 36px;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .bookshelves-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+  }
+  .bookshelves-menus-container {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    padding: 0px;
+    min-height: 80px;
+    margin-bottom: 0px;
+  }
+  .bookshelves-menus-heading {
+    font-size: 16px;
+    margin: 0px;
+  }
+
+  .bookshelves-menus {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .menus-footer-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .books-items-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .loader-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .failure-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

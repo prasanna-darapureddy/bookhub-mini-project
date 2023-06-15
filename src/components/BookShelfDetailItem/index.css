@@ -1,0 +1,139 @@
+.detailed-content-container {
+  background-color: #fff;
+  border-radius: 16px;
+  margin: 64px 150px;
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+}
+.bookItem-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.detailed-cover-img {
+  width: 235px;
+  height: 274px;
+}
+.detailed-item-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 48px;
+  height: 100%;
+}
+
+.detailed-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #334155;
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+.detailed-author {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #475569;
+  min-width: 300px;
+  margin: 0px;
+}
+.detailed-rating-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  height: 50px;
+}
+.detailed-rating-line {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #475569;
+}
+.detailed-star-icon {
+  color: #fbbf24;
+  border-radius: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 32px;
+  height: 32px;
+}
+
+.detailed-status-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #475569;
+  margin: 0px;
+}
+.detailed-status {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0284c7;
+  margin: 0px;
+}
+.linked-shelf-item {
+  text-decoration: none;
+}
+.line {
+  width: 100%;
+  margin-top: 40px;
+  background: #94a3b8;
+}
+.about-author,
+.about-book {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #334155;
+}
+.author-description,
+.book-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #475569;
+}
+
+/* Mobile View */
+@media screen and (max-width: 768px) {
+  .detailed-content-container {
+    background-color: transparent;
+    padding: 10px;
+  }
+  .bookItem-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .detailed-item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 24px;
+  }
+  .detailed-rating-container {
+    align-self: center;
+  }
+}
